@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <title>Hotel Cerasus Petalis</title>
+
+    <!-- Icons / FontAweson  -->
+    <link rel="stylesheet" href="res/bootstrap@5.0.0-alpha2.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/a2b3da0c65.js " crossorigin=" anonymous "></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  </head>
+
+  <body>
+    <!-- Menu -->
+    <header>
+      <nav class="navbar menu fixed-top">
+        <!-- Logo -->
+        <div class="logo" id="logo">
+          <h1 class="logo-contender">
+            <ul class="text">
+              <li>H</li>
+              <li class="ghost">o</li>
+              <li class="ghost">t</li>
+              <li class="ghost">e</li>
+              <li class="ghost">l</li>
+
+              <li class="spaced">P</li>
+              <li class="ghost">e</li>
+              <li class="ghost">t</li>
+              <li class="ghost">a</li>
+              <li class="ghost">l</li>
+              <li class="ghost">i</li>
+              <li class="ghost">s</li>
+
+              <li class="spaced">C</li>
+              <li class="ghost">e</li>
+              <li class="ghost">r</li>
+              <li class="ghost">a</li>
+              <li class="ghost">s</li>
+              <li class="ghost">u</li>
+              <li class="ghost">s</li>
+            </ul>
+          </h1>
+        </div>
+ 
+      
+        <div class="mobile-menu-icon navbar-toogler collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="true">
+          <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+        <!-- Menu de Navegação-->
+        <div class="navbar">
+          <ul class="nav" id="ul_menu">
+            <li class="nav-item active"><a href="#Home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#Sobre" class="nav-link">Sobre</a></li>
+            <!-- dropdown -->
+            <li class="nav-item dropdown" aria-labelledby="dropdownMenuButton"><a href="#Servicos" class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">Serviços </a>
+              <!--opcoes do submenu-->
+              <ul class="dropdown-menu menu-secundary" aria-labelledby="dropdownMenuButton" id="menu-area-sub">
+                <li><a class="dropdown-item" href="#Servicos">Quartos</a></li>
+                <li><a class="dropdown-item" href="#Servicos">Restaurante</a></li>
+                <li><a class="dropdown-item" href="#Servicos">Áreas de Lazer</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+          </ul>
+        </div>
+
+       
+  
+      </nav>
+
+      <div class="navbar-collapse collapse" id="menu">
+        <ul class="navb">
+          <li class="nav-item active"><a href="#Home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#Sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#Servicos" class="nav-link" >Serviços </a></li>
+          <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+     
+   
+
+    </header>
+
+    <!-- Corpo -->
+    <main>
+
+      <!-- Home -->
+      <section class="section-one" id="Home">
+        <div>
+          <!-- imagem -->
+          <img  src="./img/section_01.jpg" alt="Imagem que representa a entrada do Hotel">          
+          <!-- Informações do home -->
+          <div class="container conteiner">
+            <h2>Hotel Petalis Cerasus</h2>
+            <h4>Bem vindo ao Hotel Petalis Cerasus.</h4>
+            <p>The Nigth Cerry é um dos hoteis mais antigo do sul da europa, ele foi projetado em 1752 pela família Cerry. O Hotel é famoso e premiado por seus quartos aconchegante, paisagens incríveis e serviço com mais alta qualidade. 
+              <br>O Hotel tem uma história incrivel e totalmente restaurado mas sem perder sua identidade. 
+              Venha conhecer nosso hotel, as paisagens, os quartos e sua história. Mais informações entre em contato conosco, será bem recebido.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section id="Sobre">
+        <div id="about-area" class="about-area">
+          <div class="container">
+            <div class="row about-sobre">
+              <div class="col-12">
+                <h3 class="main-title">Sobre Hotel Petalis Cerasus</h3>
+              </div>
+              <!-- Area das imagens -->
+              <div class="col-md-6">
+                <div id="next">
+                  <img class="selected " src="/img/section_01.jpg" alt="Imagem da entrada do hotel" />
+                  <img src="/img/section_03.jpeg" alt="Imagem da área de hidromassagem externa">
+                  <img src="/img/Section_04.jpeg" alt="Imagem representa parte interna do restaurante" />
+                  <img src="/img/Section_05.jpeg" alt="Imagem representa café da manhã" />
+                </div>
+              </div>
+              <!-- informações Sobre -->
+              <div class="col-md-6" id="about-info">
+                <p>Hotel Petalis Cerasus tem uma recepção confortável, Hall grande e ampla, com funcionários atenciosos exemplares.</p>
+                <p>Um restaurante elegante, com comida saborosas e com chefes profissionais</p>
+                <p>Áreas do Hotel:</p>
+                <ul id="about-list">
+                  <li><i class="fas fa-check"></i> Restaurante: Ambiente interno e externo.</li>
+                  <li><i class="fas fa-check"></i> Salas para conversas com lareira. </li>
+                  <li><i class="fas fa-check"></i> Ambiente com jogos e diversão.</li>
+                  <li><i class="fas fa-check"></i> Quartos com lareira e hidromassagem.</li>
+                  <li><i class="fas fa-check"></i> Ambiente com piscina e hidromassagem.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Serviços -->
+      <section id="Servicos" class="section-services ">
+        <div>
+          <h3 class="main-title">Serviços</h3>
+        </div>
+        <div class="box-container">
+          <!-- Box do Quarto -->
+          <div class="box">
+            <div class="image">
+              <img src="/img/Quarto.jpeg" alt="Imagem que representa um dos quartos do hotel">
+            </div>
+            <div class="content">
+              <a class="title">Quartos</a>
+              <span>Silver / Gold / Diamant</span>
+              <p>Quartos aconchegante, cama espaçosa, com lareira, hidro/banheira e vista formidável.</p>
+              <div>
+                <button class="btn" type="button" data-toggle="modal" data-target="#openModal">
+                  + Informações
+                </button>
+                <!-- modal do quarto -->
+                <div id="openModal" class="modal fade">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+                    <div class="modal-content" style="background: #1c1c1c;">
+                      <div class="modal-header">
+                        <h3 class="modal-title">Quartos</h3>
+                        <button type="button" class="btn btn-close btn-close-white" data-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Silver</h5>
+                        <p><i class="fas fa-check"></i> Cama de casal, Lareira, Varanda, Banheira, Wi-fi, Televisão, Ar-condicionado, Café da manhã, Almoço.</p>
+                        <hr class="line">
+                        <h5>Gold</h5>
+                        <p><i class="fas fa-check"></i> Cama de casal(King), Lareira, Varanda, Ar-condicionado, Hidromassagem, Televisão, Wi-Fi, Cafe da manhã, Almoço e Café da tarde.</p>
+                        <hr class="line">
+                        <h5>Diamant</h5>
+                        <p><i class="fas fa-check"></i> Cama de casal(S.King), Lareira, Varanda, Hidromassagem, Wi-Fi, Café da manhã, Café da tarde, Almoço, Janta, Serviço Especial (Fondues, Vinhos, Aperitivos entre outros).</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Box Restaurante -->
+          <div class="box">
+            <div class="image">
+              <img src="/img/Cardapio.jpeg" alt="Imagem representa um dos pratos dos menu do restaurante">
+            </div>
+            <div class="content">
+              <a href="" class="title">Restaurante</a>
+              <span>Chef Laurent & Revec</span>
+              <p>Gastronomia especializada em italiana com a Chef Laurent e espanhola com a Chef Revec. </p>
+              <div>
+                <button class="btn" type="button" data-toggle="modal" data-target="#openModalRestaurant">
+                  + Informações
+                </button>
+                <!-- Modal Restaurante -->
+                <div id="openModalRestaurant" class="modal fade">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+                    <div class="modal-content" style="background: #1c1c1c;">
+                      <div class="modal-header">
+                        <h3 class="modal-title">Restaurante</h3>
+                        <button type="button" class="btn btn-close btn-close-white" data-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Cafe da Manhã/ Tarde</h5>
+                        <p><i class="fas fa-check"></i> Tipos de Pães, Café, Chá, Achocolatado, Leite, Tipos de Bolo, Frutas, Tipos de queijo, Presunto, Ovo, Sucos de fruta natural e etc. ( Obs: Opções sem lactose, glúten e mais saudáveis).</p>
+                        <hr class="line">
+                        <h5>Almoço/ Janta</h5>
+                        <p><i class="fas fa-check"></i> Tradicional: Arroz, Feijão, Vários tipo de Salada, Temperos, Massas, Proteínas (Frangos, Carnes e Peixes) e Bebidas em geral.
+                        </p>
+                        <p><i class="fas fa-star"></i> Menu e Pratos Especiais dos Chefs Laurent e Revec, com suas especialidades.
+                        </p>
+                        <hr class="line">
+                        <h5>Serviços Especiais (Exclusivo para hóspedes Diamant)</h5>
+                        <p><i class="fas fa-check"></i> Tipos de Fondues, Experimentar Vinhos , Cervejas, Whiskys e bebidas sugestivas do Hotel, Aperitivos, Lanche Noturno e Tipos de Caudos. </li>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Box Area de lazer -->
+          <div class="box">
+            <div class="image">
+              <img src="/img/section_02.jpeg" alt="Imagem representa uma das áreas de lazer do hotel">
+            </div>
+            <div class="content">
+              <a class="title">Áreas de lazer</a>
+              <span>Diversão e Lazer</span>
+              <p>Áreas para se divertir, com piscinas, academia, salões com lareira, trilhas, aventuras e entre outras opções.</p>
+              <div>
+                <button class="btn" type="button" data-toggle="modal" data-target="#openModalLazer">
+                  + Informações
+                </button>
+                <!-- Modal Area de lazer-->
+                <div id="openModalLazer" class="modal fade">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+                    <div class="modal-content" style="background: #1c1c1c;">
+                      <div class="modal-header">
+                        <h3 class="modal-title">Diversão e Lazer</h3>
+                        <button type="button" class="btn btn-close btn-close-white" data-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Opções</h5>
+                        <p><i class="fas fa-check"></i> Caminhada em torno do Hotel.
+                        </p>
+                        <p><i class="fas fa-check"></i> Trilhas para se aventurar nas montanhas com paisagens incríveis.
+                        </p>
+                        <p><i class="fas fa-check"></i> Piscinas interna e externa totalmente aquecidas.
+                        </p>
+                        <p><i class="fas fa-check"></i> Salão aconchegante para conversar, jogar uma sinuca e com o calor de uma lareira que aquece todo ambiente.</p>
+                        <p><i class="fas fa-check"></i> Área de um mini-golfe para a divertir.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Redes sociais -->
+      <section class="welcome-area">
+        <div class="container">
+          <h3>Entre em contato e faça sua reserva !!!</h3>
+          <div class="social-area">
+            <ul class="social-list col-6">
+              <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+              <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!--footer-->
+    <footer id="Contato">
+      <div class="footer-wrap">
+        <div class="container first_class">
+          <div class="row">
+            <!-- Footer Sobre -->
+            <div class="col-4 footer-about">
+              <h3>Sobre Hotel Petalis Cerasus</h3>
+              <p>Um dos hotéis mais elegante e acessível que você poderá desfrutar. Venha conhecer.</p>
+            </div>
+            <div class="col-4 footer-email">
+              <form class="newsletter">
+                <input type="text" placeholder="Email">
+                <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>
+                <p class="ml-2">Envie e-mail para uma simulação</p>
+              </form>
+            </div>
+            <!-- Contato -->
+            <div class="col-4 footer-contact">
+              <h3>Contato</h3>
+              <p>Recepção : 000-0000<i class="fa fa-phone ml-2 text-primary" aria-hidden="true"></i></p>
+              <p>Local : Est. Loren By<i class="fa fa-map-marker ml-2 text-danger" aria-hidden="true"></i></p>
+              <p>Whatsapp : 111-1111 <i class="fab fa-whatsapp text-success ml-2" aria-hidden="true"></i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda parte do Footer -->
+        <div class="second_class">
+          <div class="container second_class_bdr">
+            <div class="row">
+              <!-- Instagram footer-->
+              <div class="col-6">
+                <div class="footer-picture-insta">
+                  <h3><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</h3>
+                  <div class="pictures">
+                    <img src="/img/section_01.jpg" alt="Imagem do hotem no Instagem">
+                    <img src="/img/hotels.jpeg" alt="Imagem do hotem no Instagem">
+                    <img src="/img/Quarto_01.jpeg" alt="Imagem do hotem no Instagem">
+                    <img src="/img/Section_06.jpeg" alt="Imagem do hotem no Instagem">
+                  </div>
+                </div>
+              </div>
+              <!-- Acessar links do sote-->
+              <div class="col-6 links-area">
+                <h3>Acessar</h3>
+                <ul class="footer-links">
+                  <li><a href="#Home">Home</a>
+                  </li>
+                  <li><a href="#Sobre">Sobre</a>
+                  </li>
+                  <li><a href="#Servicos">Serviços</a>
+                  </li>
+                  <li><a href="#Contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="copyright-area">
+        <div class="container-fluid">
+          <div class="copyright"> Copyright 2022 | Criado por Luiz Augusto.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts do site -->
+    <script src="main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  
+  </body>
+
+</html>
